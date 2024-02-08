@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../data/index.json';
+import data from '../data/mysocialmedias.json';
 
 const Footer = () => (
   <footer className="footer--container">

@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import data from '../data/index.json';
+import data from '../data/mysocialmedias.json';
 
-const HeroSection = () => (
+const TopIntroSection = () => (
   <section id="heroSection" className="hero--section">
     <div className="hero--section--content--box">
       <div className="hero--section--content">
@@ -40,4 +40,4 @@ const HeroSection = () => (
   </section>
 );
 
-export default HeroSection;
+export default TopIntroSection;

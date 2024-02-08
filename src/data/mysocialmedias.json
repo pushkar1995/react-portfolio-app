@@ -1,0 +1,19 @@
+{
+    "social": [
+        {
+            "id": "1",
+            "src": "./img/SocialMedia/LinkedinIcon.svg",
+            "link": "https://www.linkedin.com/in/pushkar-gautam/"
+        },
+        {
+            "id": "2",
+            "src": "./img/SocialMedia/GithubIcon.svg",
+            "link": "https://github.com/pushkar1995"
+        },
+        {
+            "id": "3",
+            "src": "./img/SocialMedia/TwitterIcon.svg",
+            "link": "https://twitter.com/Pushkar9951"
+        }
+    ]
+}
