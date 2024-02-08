@@ -221,7 +221,7 @@ h3 {
 
 /* Navbar Styler Ends */
 
-/* Hero Section Style */
+/* Top Intro Section Style */
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -229,7 +229,7 @@ h3 {
   align-items: center;
   justify-content: space-between;
   gap: 32px;
-  background-color: pink;
+  background-color: #afe1af;
 }
 
 .hero--section--content-box {
@@ -279,7 +279,7 @@ h3 {
   height: 100%;
 }
 
-/* Hero Section Style Ends */
+/* Top Intro Section Style Ends */
 
 /* Skills Section Style */
 .skills--section {
@@ -374,7 +374,7 @@ h3 {
   align-items: center;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
-  background-color: pink;
+  background-color: #afe1af;
   border-top-right-radius: 25%;
 }
 
@@ -432,7 +432,7 @@ h3 {
 
 /* About Us Ends */
 
-/* My Portfolio Starts */
+/* My Projects Starts */
 .portfolio--section {
   display: flex;
   padding: 112px 85px;
@@ -550,7 +550,7 @@ h3 {
   margin-bottom: 10px;
 }
 
-/* Portfolio Ends */
+/* My Projects Ends */
 .contact--section {
   display: flex;
   padding: 50px;
@@ -673,7 +673,7 @@ input[type="checkbox"] {
   display: flex;
   padding: 20px;
   flex-direction: column;
-  background: pink;
+  background: #afe1af;
   align-items: center;
   align-self: stretch;
 }
