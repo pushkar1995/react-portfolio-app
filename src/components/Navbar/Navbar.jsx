@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
+import './Navbar.css';
 
 const Navbar = () => {
   const [navActive, setNavActive] = useState(false);
@@ -78,7 +79,7 @@ const Navbar = () => {
               role="menuitem"
               tabIndex={0}
             >
-              Portfolio
+              My Projects
             </Link>
           </li>
           <li>

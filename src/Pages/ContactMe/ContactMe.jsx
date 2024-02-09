@@ -1,6 +1,7 @@
 import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './ContactMe.css';
 
 const ContactMe = () => {
   const handleFormSubmit = async (e) => {
@@ -32,13 +33,14 @@ const ContactMe = () => {
       <h2 className="contact-head">Get In Touch</h2>
       <div>
         <p className="text-lg">
-          Interested in working together or have a question? Fill out the form below,
-          and I&apos;ll get back to you as soon as possible.
+          I&apos;m always intrested in hearing about new projects,
+          so if you&apos;d like to chat please get in touch.
+          I&apos;ll get back to you as soon as possible.
         </p>
       </div>
       <section id="Contact" className="contact--section">
         <div>
-          {/* <img className="us-img" src="./img/us.jpg" alt="me" /> */}
+          <img className="us-img" src="./img/ContactMeSectionImage.png" alt="me" />
           <div className="contact-form-first-div">
             <p>
               <img className="contact-social" src="https://img.icons8.com/?size=96&id=13826&format=png" alt="email-icon" />
@@ -53,7 +55,7 @@ const ContactMe = () => {
             <p>
               <img className="contact-social" src="https://img.icons8.com/?size=96&id=13800&format=png" alt="location-icon" />
               {' '}
-              Address: 0 KM, Pokhara-05, Nepal
+              Address: O KM, Pokhara-05, Nepal
             </p>
           </div>
         </div>
@@ -64,33 +66,18 @@ const ContactMe = () => {
               <input
                 type="text"
                 className="contact--input text-md"
-                name="first-name"
-                id="first-name"
-                placeholder="First Name"
+                name="full-name"
+                id="full-name"
+                placeholder="Full Name"
                 required
               />
-              <input
-                type="text"
-                className="contact--input text-md"
-                name="last-name"
-                id="last-name"
-                placeholder="Last Name"
-                required
-              />
+              <br />
               <input
                 type="email"
                 className="contact--input text-md"
                 name="email"
                 id="email"
                 placeholder="Email"
-                required
-              />
-              <input
-                type="number"
-                className="contact--input text-md"
-                name="phone-number"
-                id="phone-number"
-                placeholder="Phone Number"
                 required
               />
             </div>
@@ -102,7 +89,7 @@ const ContactMe = () => {
               placeholder="Type your message..."
             />
             <div>
-              <button className="btn btn-primary contact--form--btn" type="submit">Submit</button>
+              <button className="btn btn-primary contact--form--btn" type="submit">Get in touch</button>
             </div>
           </form>
         </div>

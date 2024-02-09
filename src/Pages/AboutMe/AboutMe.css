@@ -1,0 +1,148 @@
+.about--section {
+  display: grid;
+  padding: 133.3px 85.3px;
+  align-items: center;
+  gap: 90px;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #afe1af;
+  border-top-right-radius: 25%;
+}
+
+.about--section--box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+  margin-top: -80px;
+}
+
+.about--section--box > button {
+  margin-top: 21.333px;
+}
+
+.about--section--content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21.333px;
+}
+
+.aboutme-heading {
+  color: var(--heading-color);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+}
+
+.about--section-description {
+  color: var(--darkblue);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+.connect {
+  color: #5e3bee;
+}
+
+.socialmedia-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social {
+  margin-right: 20px;
+}
+
+.social:hover {
+  cursor: pointer;
+}
+
+.skills-heading {
+  margin-bottom: 3%;
+  color: #000;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tech-skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 50%;
+
+  /* background-color: #f2f2f2; */
+}
+
+.tech-skill img {
+  width: 90px;
+  height: 90px;
+}
+
+.tech-skill-title {
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.about--section--img > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive Screens */
+
+@media only screen and (max-width: 1200px) {
+  .about--section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about--section--content {
+    align-items: center;
+  }
+
+  .about--section--box {
+    align-items: center;
+    margin-top: -80px;
+  }
+
+  .aboutme-heading {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .about--section-description {
+    text-align: center;
+  }
+
+  .socialmedia-container {
+    justify-content: center;
+  }
+
+  .about--section--img {
+    margin-top: -20px;
+    margin-bottom: -100px;
+  }
+
+  .skills-heading {
+    text-align: center;
+  }
+
+  .tech-skill-title {
+    text-align: center;
+  }
+
+  .skills-container {
+    justify-content: center;
+  }
+}

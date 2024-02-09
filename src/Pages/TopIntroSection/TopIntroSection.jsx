@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import data from '../data/mysocialmedias.json';
+import data from '../../data/mysocialmedias.json';
 
 const TopIntroSection = () => (
   <section id="heroSection" className="hero--section">
@@ -14,8 +14,9 @@ const TopIntroSection = () => (
           Developer
         </h1>
         <p className="hero--section-description">
-          Passionate full-stack web developer creating impactful user experiences,
-          focused on creating impactful user experiences.
+          I can help you build a product, feature or website Look through some of my work
+          and experience! If you like what you see and have a project you need coded,
+          don&apos;t hesitate to contact me.
         </p>
       </div>
       <div className="skills-container">
@@ -30,7 +31,7 @@ const TopIntroSection = () => (
     </div>
     <div className="hero--section--img">
       <motion.img
-        // src="./img/mag.jpg"
+        src="./img/PuskarPhoto.png"
         alt="Pushkar Img"
         initial={{ y: -1000 }}
         animate={{ y: 0 }}

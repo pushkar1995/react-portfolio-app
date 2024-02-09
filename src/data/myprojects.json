@@ -3,11 +3,11 @@
         {
             "id": "1",
             "src": "./img/placeholder-image.png",
-            "title": "Global Tech Summit",
-            "description": "Global Tech Summit is an immersive online conference, connecting industry leaders and tech enthusiasts worldwide to explore advancements and foster connections.",
-            "link": "https://margarettechworld.github.io/GlobalTechSummit/",
-            "github": "https://github.com/MargaretTechworld/GlobalTechSummit",
-            "type": "Front-End",
+            "title": "Motorcycle Booking System",
+            "description": "This is a Full Stack Web App for Motorcycle Booking where the User Admin has all the authorization to add motorcycles and the non-admin user can consult, reserve a motorcycle, and see its reservations.",
+            "link": "https://motobookingapp.onrender.com/",
+            "github": "https://github.com/pushkar1995/motorcycle_booking_frontend",
+            "type": "Full-Stack",
             "date": "2023"
         },
         {

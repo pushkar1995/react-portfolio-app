@@ -1,5 +1,6 @@
 import React from 'react';
-import data from '../data/myprojects.json';
+import data from '../../data/myprojects.json';
+import './MyProjects.css';
 
 const MyProjects = () => (
   <section className="portfolio--section" id="MyPortfolio">
