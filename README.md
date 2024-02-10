@@ -63,7 +63,7 @@
 
 <br>
 
-- [Click me to view deployed project!] ()
+- [Click me to view deployed project!] (https://pushkargautam.com.np/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
