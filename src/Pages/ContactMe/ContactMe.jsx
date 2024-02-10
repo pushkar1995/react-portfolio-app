@@ -15,8 +15,8 @@ const ContactMe = () => {
           Accept: 'application/json',
         },
       });
-      const result = await response.json();
-      console.log(result);
+      // const result = await response.json();
+      // console.log(result);
       if (response.ok) {
         toast.success('Thanks for contacting!');
         e.target.reset();
@@ -25,7 +25,7 @@ const ContactMe = () => {
       }
     } catch (error) {
       toast.error('An error occurred. Please try again later.');
-      console.error(error);
+      // console.error(error);
     }
   };
   return (
