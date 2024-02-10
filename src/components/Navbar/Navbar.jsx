@@ -122,13 +122,13 @@ const Navbar = () => {
             smooth
             offset={-70}
             duration={500}
-            to="testimonial"
+            to="https://en.wikipedia.org/wiki/Nepal"
             className="navbar--content"
             role="menuitem"
             tabIndex={0}
           >
             <div className="flag-cont">
-              <img className="flag" src="./img/flag.svg" alt="Nepal" />
+              <img className="flag" src="./img/nepal-flag.svg" alt="Nepal" />
               Nepal
             </div>
           </Link>
