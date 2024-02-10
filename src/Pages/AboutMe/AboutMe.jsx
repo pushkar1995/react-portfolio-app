@@ -25,7 +25,7 @@ const AboutMe = () => (
             </div>
           ))}
         </div>
-        <a href="https://docs.google.com/document/d/1tCXjdvaEIDCp2MTgUOYkazlYT3atGel-OAcdc5ACp74/edit" className="btn btn-primary" target="_blank" rel="noreferrer">Get My Resume</a>
+        <a href="https://drive.google.com/file/d/1zkc43VXyTWuStzGjvioclOGQMDjfypxs/view?usp=sharing" className="btn btn-primary" target="_blank" rel="noreferrer">Get My Resume</a>
       </div>
     </div>
     <div className="about--section--img">
