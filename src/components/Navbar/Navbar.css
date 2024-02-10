@@ -1,0 +1,132 @@
+
+/* Navbar Style Start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 85.333px;
+  background: var(--white);
+  box-shadow: 0 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar--items > ul {
+  list-style: none;
+  display: flex;
+  gap: 32.667px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.navbar--items ul > li > a {
+  text-decoration: none;
+}
+
+/* Navbar Content */
+.navbar--content {
+  color: var(--darkblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.navbar--active-content {
+  color: var(--primary);
+}
+
+.flag {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.flag-cont {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar Styler Ends */
+
+/* Hamburger menu  */
+
+.nav__hamburger {
+  display: none;
+  height: 1.313rem;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 40px;
+  border: none;
+  background-color: white;
+}
+
+.nav__hamburger__line {
+  display: block;
+  height: 0.188rem;
+  width: 100%;
+  background-color: #000;
+  border-radius: 0.625rem;
+  transition: all ease-in-out 0.2s;
+}
+
+/* Responsive Screens */
+
+@media screen and (max-width: 1200px) {
+  .nav__hamburger {
+    display: flex;
+    z-index: 200;
+  }
+
+  .navbar--items {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    top: -20rem;
+    left: 0;
+    width: 100%;
+    transition: all ease-in-out 0.4s;
+    z-index: -1000;
+  }
+
+  .navbar--items ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 0 0.6rem;
+    z-index: -100;
+  }
+
+  .navbar--items ul li {
+    text-align: center;
+  }
+
+  .navbar--items ul li a {
+    padding: 0.5rem;
+  }
+
+  .navbar--items.active {
+    top: 30px;
+  }
+
+  .nav__hamburger.active :nth-child(1) {
+    transform: rotate(45deg) translate(0.45rem, 0.1875rem);
+  }
+
+  .nav__hamburger.active :nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav__hamburger.active :nth-child(3) {
+    transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
+  }
+}
+
+/* Responsive Screens Ends */

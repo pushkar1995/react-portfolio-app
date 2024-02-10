@@ -1,0 +1,29 @@
+{
+    "social": [
+        {
+            "id": "1",
+            "src": "./img/SocialMedia/GithubIcon.svg",
+            "link": "https://github.com/pushkar1995"
+        },
+        {
+            "id": "2",
+            "src": "./img/SocialMedia/MediumIcon.svg",
+            "link": "https://medium.com/@pushkargautam993"
+        },
+        {
+            "id": "3",
+            "src": "./img/SocialMedia/LinkedinIcon.svg",
+            "link": "https://www.linkedin.com/in/pushkar-gautam/"
+        },
+        {
+            "id": "4",
+            "src": "./img/SocialMedia/InstaIcon.svg",
+            "link": "https://www.instagram.com/puskar____/"
+        },
+        {
+            "id": "5",
+            "src": "./img/SocialMedia/TwitterIcon.svg",
+            "link": "https://twitter.com/Pushkar9951"
+        }
+    ]
+}
