@@ -11,9 +11,9 @@ const AboutMe = () => (
         <p className="about--section-description">
           I&apos;m Pushkar Gautam, a computer engineering graduate and full stack web developer
           passionate about software development and remote collaboration. Skilled in HTML, CSS,
-          JavaScript, React, Redux, Ruby, Ruby on Rails, and databases. Experienced in teamwork,
-          communication, and meeting deadlines. Committed to creating impactful and user-friendly
-          web applications.
+          JavaScript, React, Redux, Ruby, Ruby on Rails, NodeJS and databases. Experienced in
+          teamwork, communication, and meeting deadlines. Committed to creating impactful
+          and user-friendly web applications.
         </p>
         <p className="connect">LET&apos;S CONNECT</p>
         <div className="socialmedia-container">

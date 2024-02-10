@@ -4,7 +4,7 @@
             "id": "1",
             "src": "./img/MyProjects/MotorcycleBooking.png",
             "title": "Motorcycle Booking App",
-            "description": "This is a Full Stack Web App for Motorcycle Booking where the User Admin has all the authorization to add motorcycles and the non-admin user can consult, reserve a motorcycle, and see its reservations.",
+            "description": "Full Stack Web App for Motorcycle Booking where the User Admin has authorization to add motorcycles and non-admin user can consult, reserve a motorcycle, and see its reservations.",
             "link": "https://motobookingapp.onrender.com/",
             "github": "https://github.com/pushkar1995/motorcycle_booking_frontend",
             "type": "Full-Stack",
