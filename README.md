@@ -31,11 +31,11 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- HTML.
-- CSS.
+- HTML
+- CSS
 - JavaScript
-- LINTERS.
-- REACT.
+- LINTERS
+- REACT
 
 <br>
 
