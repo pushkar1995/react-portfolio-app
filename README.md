@@ -24,7 +24,7 @@
 <br>
 
 <br>
-- This is my Portfolio Website shows a sneak peek into my portfolio and projects I have developed and deployed, showcasing my skills in HTML, CSS, JavaScript, REACT. With a passion for web development, I have honed my expertise in these technologies to create stunning and functional websites.
+- This is my Portfolio Website, shows a sneak peek into my portfolio and projects I have developed and deployed, showcasing my skills in HTML, CSS, JavaScript, REACT. With a passion for web development, I have honed my expertise in these technologies to create stunning and functional websites.
 
 <br>
 <br>
