@@ -15,8 +15,8 @@ const TopIntroSection = () => (
         </h1>
         <p className="top--section-subtitle">| React | MERN |  Ruby on Rails | PostgreSQL | Software Engineer | Can manage a project from idea to an end product |</p>
         <p className="hero--section-description">
-          I can help you build a product, feature or website Look through some of my work
-          and experience! If you like what you see and have a project you need coded,
+          I can help you build a product, feature or website. Look through some of my work
+          and experience. If you like what you see and have a project you need coded,
           don&apos;t hesitate to contact me.
         </p>
       </div>
