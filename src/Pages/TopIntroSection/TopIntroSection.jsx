@@ -13,7 +13,7 @@ const TopIntroSection = () => (
           <br />
           Certified Full-stack Developer
         </h1>
-        <p className="hero--section-description">| React | MERN | Software Engineer | Can manage a project from idea to an end product |</p>
+        <p className="top--section-subtitle">| React | MERN | Software Engineer | Can manage a project from idea to an end product |</p>
         <p className="hero--section-description">
           I can help you build a product, feature or website Look through some of my work
           and experience! If you like what you see and have a project you need coded,
