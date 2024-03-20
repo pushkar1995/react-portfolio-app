@@ -23,7 +23,7 @@ const MyProjectCard = ({ myproject }) => {
               {myproject.date}
             </h4>
           </div>
-          <p className="text-md">{myproject.description}</p>
+          {/* <p className="text-md">{myproject.description}</p> */}
         </div>
 
         <div className="github-live">
