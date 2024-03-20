@@ -1,6 +1,5 @@
-/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
 import MyProjectModal from './MyProjectModal';
@@ -9,9 +8,9 @@ const MyProjectCard = ({ myproject }) => {
   const [showModal, setShowModal] = useState(false);
   return (
 
-    <div key={myproject.id} className="portfolio--section--card">
+    <div key={myproject.id} onClick={() => setShowModal(true)} className="portfolio--section--card">
       <div className="portfolio--section--img">
-        <img src={myproject.src} onClick={() => setShowModal(true)} alt="Project" />
+        <img src={myproject.src} alt="Project" />
       </div>
       <div className="portfolio--section--card--content">
         <div>

@@ -16,14 +16,16 @@ const BookModal = ({ myproject, onClose }) => (
       className="w-[800px] max-w-full h-[700px] bg-white rounded-xl p-4 flex flex-col relative"
     >
       <AiOutlineClose
-        className="absolute right-6 top-7 text-3xl text-red-600 cursor-pointer"
+        className="absolute right-6 top-11 text-3xl text-red-600 cursor-pointer"
         onClick={onClose}
       />
-      <h2 className="flex justify-center bg-green-300 rounded-lg">
+      <h2 className="flex my-4 justify-center bg-green-300 rounded-lg">
         {myproject.title}
       </h2>
-      {/* <h4 className="my-2 text-gray-500">{myproject.id}</h4> */}
-      <div className="flex justiry-start items-center gap-x-2 my-4">
+      <div className="portfolio--section--img">
+        <img src={myproject.src} alt="Project" />
+      </div>
+      <div className="flex justiry-start items-center gap-x-2 my-2">
         <PiBookOpenTextLight className="text-red-300 text-2xl" />
         <h4 className="my-1">{myproject.type}</h4>
         <h4 className="mx-20">
@@ -31,10 +33,7 @@ const BookModal = ({ myproject, onClose }) => (
           {myproject.date}
         </h4>
       </div>
-      <div className="portfolio--section--img">
-        <img src={myproject.src} alt="Project" />
-      </div>
-      <p className="my-6">
+      <p className="my-3">
         {myproject.description}
       </p>
     </div>
