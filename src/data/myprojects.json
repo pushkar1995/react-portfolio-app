@@ -7,7 +7,7 @@
             "description": "Full Stack Web App for Motorcycle Booking where the User Admin has authorization to add motorcycles and non-admin user can consult, reserve a motorcycle, and see its reservations.",
             "link": "https://motobookingapp.onrender.com/",
             "github": "https://github.com/pushkar1995/motorcycle_booking_frontend",
-            "type": "Full-Stack",
+            "type": "Full-Stack: React/Rails",
             "date": "2024"
         },
         {
@@ -17,7 +17,7 @@
             "description": "This project is about a mobile web application where you can manage your budget: so that you can see how much money you spent and on what.",
             "link": "https://budget-app-ee56.onrender.com/",
             "github": "https://github.com/pushkar1995/budget-app",
-            "type": "Back-End/Rails",
+            "type": "Back-End: Rails",
             "date": "2023"
         },
         {
@@ -27,7 +27,7 @@
             "description": "This website will list countries all over the world and you can filter the countries by its regions and when you click on flag of the country you can have more information about the country.",
             "link": "https://countries-webapp-react-capstone-project.onrender.com/",
             "github": "https://github.com/pushkar1995/caps-metrics-app-react",
-            "type": "Front-End",
+            "type": "Front-End: React",
             "date": "2023"
         },
         {
@@ -37,7 +37,7 @@
             "description": "Space Traveller's Hub is a website for all fans of space. It is a Single Page App (SPA) that allows users to: Reserve rockets, Join Missions, View profile of what has been booked.",
             "link": "https://space-traveller-hub.onrender.com/",
             "github": "https://github.com/pushkar1995/space-travelers-hub",
-            "type": "Front-End",
+            "type": "Front-End: React",
             "date": "2023"
         }
     ]
