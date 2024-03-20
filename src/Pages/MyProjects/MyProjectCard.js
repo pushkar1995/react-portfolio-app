@@ -18,10 +18,10 @@ const MyProjectCard = ({ myproject }) => {
           <h3 className="portfolio--section--title">{myproject.title}</h3>
           <div className="date-type">
             <h4>{myproject.type}</h4>
-            <h4>
+            {/* <h4>
               ●
               {myproject.date}
-            </h4>
+            </h4> */}
           </div>
           {/* <p className="text-md">{myproject.description}</p> */}
         </div>
