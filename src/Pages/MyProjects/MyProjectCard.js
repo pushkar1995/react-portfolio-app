@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable react/prop-types */
@@ -7,7 +9,6 @@ import MyProjectModal from './MyProjectModal';
 const MyProjectCard = ({ myproject }) => {
   const [showModal, setShowModal] = useState(false);
   return (
-
     <div key={myproject.id} onClick={() => setShowModal(true)} className="portfolio--section--card">
       <div className="portfolio--section--img">
         <img src={myproject.src} alt="Project" />
@@ -17,12 +18,7 @@ const MyProjectCard = ({ myproject }) => {
           <h3 className="portfolio--section--title">{myproject.title}</h3>
           <div className="date-type">
             <h4>{myproject.type}</h4>
-            {/* <h4>
-              ●
-              {myproject.date}
-            </h4> */}
           </div>
-          {/* <p className="text-md">{myproject.description}</p> */}
         </div>
 
         <div className="github-live">
