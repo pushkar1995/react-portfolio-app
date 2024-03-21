@@ -39,18 +39,13 @@ const ContactMe = () => {
         </p>
       </div>
       <section id="Contact" className="contact--section">
-        <div>
+        <div className="contact-section-topdiv">
           <img className="us-img" src="./img/ContactMeSectionImage.png" alt="me" />
           <div className="contact-form-first-div">
             <p>
               <img className="contact-social" src="https://img.icons8.com/?size=96&id=13826&format=png" alt="email-icon" />
               {' '}
               gautampushkar4@gmail.com
-            </p>
-            <p>
-              <img className="contact-social" src="https://img.icons8.com/?size=96&id=110288&format=png" alt="phone-icon" />
-              {' '}
-              +9779865129397
             </p>
             <p>
               <img className="contact-social" src="https://img.icons8.com/?size=96&id=13800&format=png" alt="location-icon" />

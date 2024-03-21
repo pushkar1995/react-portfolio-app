@@ -8,6 +8,12 @@
   gap: 64px;
 }
 
+.contact-section-topdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contact-second-div {
   display: flex;
   flex-direction: column;
@@ -18,7 +24,7 @@
   height: 300px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
 }
 
 .contact--form--container {
@@ -31,7 +37,7 @@
 }
 
 .us-img {
-  width: 70%;
+  width: 60%;
   margin-top: 10px;
 }
 
